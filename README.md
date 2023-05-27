@@ -1,5 +1,5 @@
 # Movies Poster API
-    Uma aplicação que utiliza uma API de filmes para buscar e exibir o poster, título e descrição de filmes.  
+Uma aplicação que utiliza uma API de filmes para buscar e exibir o poster, título e descrição de filmes.  
 -------  
 ## Clone o repositório para sua máquina local:  
     - git clone https://github.com/LuisPhDS/MovieAPI.git  
