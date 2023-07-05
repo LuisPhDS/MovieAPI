@@ -7,6 +7,27 @@
     <title>Filmes</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/png">
     <link rel="stylesheet" href="css/style.css" />
+    <script>
+(function (m, a, z, e) {
+  var s, t;
+  try {
+    t = m.sessionStorage.getItem('maze-us');
+  } catch (err) {}
+
+  if (!t) {
+    t = new Date().getTime();
+    try {
+      m.sessionStorage.setItem('maze-us', t);
+    } catch (err) {}
+  }
+
+  s = a.createElement('script');
+  s.src = z + '?t=' + t + '&apiKey=' + e;
+  s.async = true;
+  a.getElementsByTagName('head')[0].appendChild(s);
+  m.mazeUniversalSnippetApiKey = e;
+})(window, document, 'https://snippet.maze.co/maze-universal-loader.js', 'de5a486c-546b-4b69-badc-4f54806dce8e');
+</script>
   </head>
 <body>
     <h1 class="title">MOVIES</h1>    
